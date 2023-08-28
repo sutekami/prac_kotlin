@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    var n: Int = Integer.parseInt(readLine())
+    var n: Int = Integer.parseInt(readLine()) % 10
     
     for (j in 1..n) {
         var nArray: Array<String> = arrayOf()
